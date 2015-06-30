@@ -1,0 +1,39 @@
+##
+# Copyright 2014 the original author or authors. All rights reserved.
+##
+
+####################
+###   Database   ###
+####################
+database.driver.class=com.mysql.jdbc.Driver
+
+database.url=jdbc:mysql://localhost:3306/8dianhou-app?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+#database.username=root
+#database.password=visionet
+
+database.username=app
+database.password=123456
+
+
+#pms_project  pms_server
+
+
+database.pool.init.size=3
+database.pool.min.size=1
+database.pool.max.size=50
+
+###############
+###   ORM   ###
+###############
+packages.to.scan=com.visionet.**.domain
+
+#################
+###   Cache   ###
+#################
+cache.location=classpath:/META-INF/ehcache.xml
+
+#####################
+###   Framkwork   ###
+#####################
+json.pretty.print=true
+

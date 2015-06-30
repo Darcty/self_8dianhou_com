@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/java/com/visionet/project/base/util
+END
+DateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/java/com/visionet/project/base/util/DateUtil.java
+END
+MD5Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/java/com/visionet/project/base/util/MD5Util.java
+END
+Helper.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/java/com/visionet/project/base/util/Helper.java
+END
+HttpClientUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/projects/!svn/ver/57419/j2ee/8dianhou/tags/badianhouGateway/src/main/java/com/visionet/project/base/util/HttpClientUtils.java
+END
+CharUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/java/com/visionet/project/base/util/CharUtil.java
+END
+JsonHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/projects/!svn/ver/57553/j2ee/8dianhou/tags/badianhouGateway/src/main/java/com/visionet/project/base/util/JsonHandler.java
+END
+UrlUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/projects/!svn/ver/57091/j2ee/8dianhou/tags/badianhouGateway/src/main/java/com/visionet/project/base/util/UrlUtil.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/webapp/WEB-INF/lib
+END
+httpcore-4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/webapp/WEB-INF/lib/httpcore-4.3.jar
+END
+jpush-client-3.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/projects/!svn/ver/57249/j2ee/8dianhou/tags/badianhouGateway/src/main/webapp/WEB-INF/lib/jpush-client-3.2.3.jar
+END
+slf4j-api-1.7.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/projects/!svn/ver/58110/j2ee/8dianhou/tags/badianhouGateway/src/main/webapp/WEB-INF/lib/slf4j-api-1.7.5.jar
+END
+mockwebserver-2.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/projects/!svn/ver/58110/j2ee/8dianhou/tags/badianhouGateway/src/main/webapp/WEB-INF/lib/mockwebserver-2.0.0.jar
+END
+gson-2.2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/projects/!svn/ver/58110/j2ee/8dianhou/tags/badianhouGateway/src/main/webapp/WEB-INF/lib/gson-2.2.4.jar
+END
+okio-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/projects/!svn/ver/58110/j2ee/8dianhou/tags/badianhouGateway/src/main/webapp/WEB-INF/lib/okio-1.0.1.jar
+END
+httpclient-4.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/webapp/WEB-INF/lib/httpclient-4.3.1.jar
+END

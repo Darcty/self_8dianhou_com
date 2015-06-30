@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd" >
+	
+	<bean id="jobDetailParent" abstract="true">
+    	<property name="targetMethod" value="doJob"/>
+    </bean>
+    	
+	<!-- Scheduled Factory -->
+	<bean id="scheduledBean"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<!-- 修改是否活跃-->
+				<ref bean="studentIsActiveScheduleTrigger" />
+			</list>
+		</property>
+	</bean>
+	
+	<!-- ProjectWeekPaper Job  -->
+	<bean id="studentIsActiveScheduleTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="projectWeekPaperDetail"/>
+		<!--  ss mm hh  -->
+		<property name="cronExpression" value="0 0 8 * * ?"/>
+	</bean>
+	
+	<bean id="projectWeekPaperDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean" parent="jobDetailParent">
+			<property name="targetObject" ref="studentIsActiveSchedule"/>
+	</bean>
+	
+	<!-- Job Bean -->
+	<bean id="studentIsActiveSchedule" class="com.visionet.project.base.schedule.StudentIsActiveSchedule">
+	</bean>
+	
+	<!-- log bean -->
+	<!-- 
+	<bean id="operatelog" class="com.visionet.project.platform.much.Operatelog"/>
+	<aop:config>
+			<aop:aspect ref="operatelog">
+			  <aop:before method="log"
+			     pointcut="within(con.visionet.project.platform.much..*)"/>
+			</aop:aspect>
+	</aop:config> -->
+</beans>

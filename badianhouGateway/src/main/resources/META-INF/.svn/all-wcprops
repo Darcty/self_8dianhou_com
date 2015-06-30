@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/resources/META-INF
+END
+application.main.context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/resources/META-INF/application.main.context.xml
+END
+application.dispatcher.servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/resources/META-INF/application.dispatcher.servlet.xml
+END
+ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/projects/!svn/ver/56811/j2ee/8dianhou/tags/badianhouGateway/src/main/resources/META-INF/ehcache.xml
+END
+application.schedule.context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/projects/!svn/ver/58110/j2ee/8dianhou/tags/badianhouGateway/src/main/resources/META-INF/application.schedule.context.xml
+END

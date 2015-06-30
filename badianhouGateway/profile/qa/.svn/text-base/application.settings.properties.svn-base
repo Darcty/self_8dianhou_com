@@ -1,0 +1,20 @@
+##
+# Copyright 2014 the original author or authors. All rights reserved.
+##
+
+#######################
+####    dababase   ####
+#######################
+database.driver.class=com.mysql.jdbc.Driver
+database.url=jdbc:mysql://localhost:3306/pms_produce?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+database.username=root
+database.password=root
+database.pool.init.size=3
+database.pool.min.size=1
+database.pool.max.size=50
+
+##########################################
+####    orm framework jpa/hibernate4  ####
+##########################################
+ctu.orm.framework.type=jpa
+ctu.orm.framework.packagesToScan=com.telecom.lms.po.**,com.telecom.ctu.lms.core.model.**
